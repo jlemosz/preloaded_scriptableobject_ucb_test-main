@@ -21,6 +21,7 @@
       <Path>Library/PackageCache/com.unity.sysroot@2.0.10</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.33</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>
+      <Path>Library/PackageCache/com.unity.textmeshpro@3.0.9</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.7.6</Path>
       <Path>Library/PackageCache/com.unity.toolchain.macos-arm64-linux-x86_64@2.0.3</Path>
       <Path>Library/PackageCache/com.unity.visualscripting@1.9.4</Path>
@@ -28,7 +29,9 @@
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>.git</Path>
       <Path>.idea</Path>
+      <Path>Build</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
